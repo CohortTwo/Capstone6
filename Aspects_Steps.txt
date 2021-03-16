@@ -1,0 +1,30 @@
+
+
+	AOP
+
+	1. Dependencies to be added in POM.xml
+			<dependency>
+    				<groupId>org.aspectj</groupId>
+  			        <artifactId>aspectjrt</artifactId>
+   			</dependency>
+			<dependency>
+			    	<groupId>org.aspectj</groupId>
+			    	<artifactId>aspectjtools</artifactId>
+    	
+			</dependency>
+
+	2. Annotations
+		@Aspect  // asect class (whatever is the name of the class)
+
+	3. Aspects
+		@Before(....)
+		method()
+			{}
+		@After(....)
+		method()
+			{}
+		@Around(....)
+		method()
+			{}
+
+	
